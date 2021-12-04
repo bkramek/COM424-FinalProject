@@ -1,0 +1,226 @@
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 11px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  hr {
+    border: 0 solid #ccc;
+    border-top-width: 2px;
+    clear: both;
+    height: 0;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+    padding-top : 50px;
+  }
+  
+  .grid_1 a {
+    color: #000;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 img {
+      width : 250px;
+      margin-right : 20px;
+      margin-left : 140px;
+  }
+  
+  div img {
+      width : 300px;
+      margin-left: 100px;
+  }
+  
+  /* Headings
+  ----------------------------------------------------------------------------------------------------*/
+  
+  #nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size : 16px;
+  }
+
+  #nav a:hover {
+    font-weight: bold;
+    transition: all 0s linear 0s;
+  }
+  
+  .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px dashed;
+      border-top: 4px solid\9;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+  }
+  
+  #nav {
+    padding-bottom : 40px;
+    padding-top : 10px;
+    padding-left: 200px;
+    margin-bottom : 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    background: #dddddd;
+  }
+  
+  #bottom {
+      background: #dddddd;
+      padding-top: 5px;
+      padding-bottom: 150px;
+  }
+  
+  #bottom p {
+    width : 200px;
+    display: inline;
+    float: left;
+    padding-right: 60px;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 11px;
+  }
+  
+  #titles h3 {
+    font-size: 19px;
+    display: inline-block;
+    width: 260px;
+  }
+  
+  #bottom img {
+      width: 170px;
+      margin-left: 40px;
+      margin-right: 900px;
+      margin-top: 5px;
+      float: left;
+  }
+  
+  h1 {
+    padding-bottom : 10px;
+    padding-top : 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-align: left;
+    background: #ffffff;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  }
+  
+  h6,h5 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    margin-bottom : 5px;
+  }
+  
+  /* Spacing
+  ----------------------------------------------------------------------------------------------------*/
+  
+  ol {
+    list-style: decimal;
+  }
+  
+  ul {
+    list-style: disc;
+  }
+  
+  li {
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  
+  
+  
+  /* Container
+  ----------------------------------------------------------------------------------------------------*/
+  
+  .container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #fff;
+    background-repeat: repeat-y;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid 
+  ----------------------------------------------------------------------------------------------------*/
+  
+  .grid_1,.grid_6,.grid_12 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .container_12 .grid_6 {
+    width: 460px;
+  }
+  
+  .container_12 .grid_12 {
+    width: 940px;
+  }
+
+/* Dropdown CSS for "PROJECTS" */
+
+.dropbtn {
+    background-color: #dddddd;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    width: 101px;
+    padding: 12px 12px;
+    position: relative;
+    left: -20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}

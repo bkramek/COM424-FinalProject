@@ -1,0 +1,35 @@
+.person p {
+    font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    height: auto;
+    padding-bottom: 20px;
+	max-width: 80%;
+	margin-left: 200px;
+  }
+  
+ .person span {
+	font-weight: 700;
+ }
+ 
+.person img {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+#research_team h2 {
+	font: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 24px;
+    height: auto;
+	margin: auto;
+    padding-bottom: 20px;
+	max-width: 800px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+}

@@ -70,6 +70,11 @@ body {
       border-left: 4px solid transparent;
   }
   
+  #about table {
+	padding-bottom : 40px;
+    padding-top : 70px;
+  }
+  
   #nav {
     padding-bottom : 40px;
     padding-top : 10px;
@@ -220,6 +225,8 @@ body {
     display: block;
     text-align: center;
   }
+  
+  
   
   .dropdown-content a:hover {background-color: #ddd;}
   

@@ -12,14 +12,6 @@
  .project span {
 	font-weight: 700;
  }
- 
-.project img {
-	object-fit: cover;
-	width: 200px;
-	height: 200px;
-	margin-left: 200px;
-	margin-bottom: 20px;
-}
 
 #projects h2 {
 	font: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
@@ -32,4 +24,29 @@
 	max-width: 800px;
 	margin-left: 200px;
 	margin-bottom: 10px;
+}
+
+.project img {
+	object-fit: cover;
+	height: 200px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+.project a {
+	font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    color: #1AA7EC;
+    font-size: 16px;
+    padding-bottom: 20px;
+	margin-left: 200px;
+	padding-top: 0px;
+}
+
+.project video {
+    color: #1AA7EC;
+    font-size: 16px;
+    height: auto;
+    padding-bottom: 20px;
+	max-width: 30%;
+	margin-left: 200px;
 }

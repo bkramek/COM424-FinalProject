@@ -1,0 +1,34 @@
+.project p {
+    font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    height: auto;
+    padding-bottom: 20px;
+	max-width: 80%;
+	margin-left: 200px;
+  }
+  
+ .project span {
+	font-weight: 700;
+ }
+
+#projects h2 {
+	font: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 24px;
+    height: auto;
+	margin: auto;
+    padding-bottom: 20px;
+	max-width: 800px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+
+.project img {
+	object-fit: cover;
+	height: 200px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
